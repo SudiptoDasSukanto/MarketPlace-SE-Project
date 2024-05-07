@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  node-server:
+    build: ./flask_server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./node-server:/usr/src/app
+    environment:
+      NODE_ENV: development
+
+  react-app:
+    build: ./admin_panel_app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./react-app:/usr/src/app
+      - /usr/src/app/node_modules

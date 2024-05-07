@@ -1,0 +1,19 @@
+.designforForm  label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.designforForm input ,select {
+    border-radius: 5px;
+    border: 1px solid #7ec6d5;
+    background: #FFF;
+    width: 75%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.designforForm textarea{
+    border-radius: 5px;
+    border: 1px solid #7ec6d5;
+}
