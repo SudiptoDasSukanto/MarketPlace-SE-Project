@@ -6,7 +6,7 @@ const Footer = () => {
             <img className="h-20 w-20 lg:h-32 lg:w-32 rounded-full" src="https://i.ibb.co/WpgYsv0/logo.jpg"></img>
         </div> 
         <div className="my-5">
-            <p className="font-bold text-2xl">SkillHub Company Ltd.</p> 
+            <p className="font-bold text-2xl">MarketPlace Company Ltd.</p> 
             <p>Providing reliable serivce since 2000</p>
             <p>Copyright © 2023 - All right reserved</p>
         </div>

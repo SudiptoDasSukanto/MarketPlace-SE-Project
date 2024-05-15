@@ -61,7 +61,7 @@ const Addjob = () => {
           </div>
           <div>
             <label>Job Title</label>
-            <input type="text" name="title" placeholder="Add your job titel" />
+            <input type="text" name="title" placeholder="Add your job title" />
           </div>
           <div>
             <label>Minimum Price</label>
@@ -77,7 +77,7 @@ const Addjob = () => {
             <input
               name="mx_price"
               type="text"
-              placeholder="Job Minimum Price"
+              placeholder="Job Maximum Price"
               required
             />
           </div>

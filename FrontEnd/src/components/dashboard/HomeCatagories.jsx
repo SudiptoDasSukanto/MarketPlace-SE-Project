@@ -10,10 +10,10 @@ import { useEffect, useState } from "react";
 const getItems = (panelStyle) => [
     {
       key: "1",
-      label: "How do I post a job on SkillHub?",
+      label: "How do I post a job on MarketPlace?",
       children: (
         <p className="pl-10">
-          To post a job on SkillHub, simply visit the{" "}
+          To post a job on MarketPlace, simply visit the{" "}
           <span className="font-semibold">Add Jobs</span> page. Provide essential
           details such as the job title, deadline, and a comprehensive
           description. Choose the relevant category from the dropdown menu, and
@@ -32,7 +32,7 @@ const getItems = (panelStyle) => [
         "What measures are in place to ensure the quality and security of the services provided?",
       children: (
         <p className="pl-10">
-          SkillHub maintains a stringent vetting process for all freelancers on
+          MarketPlace maintains a stringent vetting process for all freelancers on
           the platform. We verify the skills and qualifications of each
           professional, and our secure payment system ensures that transactions
           are safe and reliable. Additionally, our rating and review system allows
@@ -48,7 +48,7 @@ const getItems = (panelStyle) => [
         " Can I request custom project requirements tailored to my specific business needs?",
       children: (
         <p className="pl-10">
-          Absolutely! SkillHub encourages custom project requests that align with
+          Absolutely! MarketPlace encourages custom project requests that align with
           your unique business requirements. Our platform allows you to
           communicate directly with freelancers, ensuring that your project needs
           are understood and implemented to your satisfaction.
@@ -98,7 +98,7 @@ const HomeCatagories = () => {
             <span className="text-[#ff715b]"> Come to Life</span>
           </p>
           <p className="text-xl mb-5">
-            At SkillHub, we curate a diverse community of adept professionals.
+            At MarketPlace, we curate a diverse community of adept professionals.
             Whether you&apos;re a buyer seeking the perfect digital solution or
             a seller looking to showcase your skills, our platform is designed
             to cater to all your needs. From engaging website content to
