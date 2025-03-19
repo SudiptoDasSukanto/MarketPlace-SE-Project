@@ -13,3 +13,5 @@ Market Place is a web application developed during my 3rd year, 1st semester, us
 - **Backend:** Flask
 - **Database:** (Specify if you used SQLite)
 
+##
+This project provided valuable experience in full-stack development and reinforced my understanding of handling user interactions, API integration, and state management in React.
